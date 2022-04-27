@@ -17,7 +17,7 @@ export const addToTheDom = (value) => {
     )
   })
   newTodo.appendChild(todoBtn)
-  todos.appendChild(newTodo)
+  todos.prepend(newTodo)
 }
 
 export const onMount = (todosList) => {
