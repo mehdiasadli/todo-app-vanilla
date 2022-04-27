@@ -57,5 +57,6 @@ const handleRemove = () => {
   removeBtn.style.display = 'none'
 }
 
+// Event Listeners
 form.addEventListener('submit', handleSubmit)
 removeBtn && removeBtn.addEventListener('click', handleRemove)
