@@ -102,3 +102,18 @@ main {
     background-color: rgb(187, 0, 0);
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+    #form {
+        width: 80%;
+    }
+    #todos {
+        width: 80%;
+    }
+    #remove-btn {
+        width: 80%;
+    }
+    .error {
+        width: 80%;
+    }
+}
